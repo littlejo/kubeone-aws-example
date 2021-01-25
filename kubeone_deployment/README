@@ -1,0 +1,4 @@
+eval `ssh-agent`
+ssh-add ~/.ssh/id_rsa
+export AWS_PROFILE=default
+kubeone apply --manifest kubeone.yaml -t tf.json
