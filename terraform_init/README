@@ -1,0 +1,4 @@
+Goal: Create VPC
+
+terraform init
+terraform apply
